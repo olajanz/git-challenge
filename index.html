@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Git Commands</h1>
+    <h2>Conffigure</h2>
+    <table>
+      <tr>
+        <td>
+          Configure the author name to be used with your commits
+        </td>
+        <td>
+          <code>git config --global user.name "Sam Smith"</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Configure the email address to be used with your commits
+        </td>
+        <td>
+          <code>git config --global user.email sam@example.com</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Configure gitignore global
+        </td>
+        <td>
+          <code
+            >git config --global core.excludesfile "~/.gitignore_global"</code
+          >
+        </td>
+      </tr>
+    </table>
+    <h2>Init</h2>
+    <table>
+      <tr>
+        <td>Create a new local repository</td>
+        <td><code>git init</code></td>
+      </tr>
+    </table>
+    <h2>Clone</h2>
+    <table>
+      <tr>
+        <td>Create a working copy of a local repositoryy</td>
+        <td><code>git clone /path/to/repository</code></td>
+      </tr>
+      <tr>
+        <td>For a remote server</td>
+        <td><code>git clone username@host:/path/to/repository</code></td>
+      </tr>
+    </table>
+    <h2>Status</h2>
+    <table>
+      <tr>
+        <td>
+          List the files you've changed and those you still need to add or
+          commit
+        </td>
+        <td><code>git status</code></td>
+      </tr>
+    </table>
+    <h2>Add to staging (index)</h2>
+    <table>
+      <tr>
+        <td>
+          Add one file to staging (index)
+        </td>
+        <td><code>git add &lt;filename&gt;</code></td>
+      </tr>
+      <tr>
+        <td>
+          Add all changes to staging
+        </td>
+        <td><code>git add . </code></td>
+      </tr>
+    </table>
+  </body>
+</html>
